@@ -130,4 +130,3 @@ One delivery (DEL-2005) is intentionally left unbilled to demonstrate the "broke
 | Graph DB vs SQLite | Chose SQLite — simpler, no extra infra, sufficient for O2C scale |
 | Vector similarity guardrail vs keywords | Chose keywords — zero latency, no extra API call |
 | Streaming responses | Skipped — adds complexity, not critical for this use case |
-| Authentication | Skipped — out of scope for 1-day build |
