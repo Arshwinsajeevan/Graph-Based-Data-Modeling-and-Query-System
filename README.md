@@ -123,25 +123,6 @@ One delivery (DEL-2005) is intentionally left unbilled to demonstrate the "broke
 
 ---
 
-## Deployment
-
-### Backend → Render
-
-1. Push `backend/` to GitHub
-2. New Web Service on [render.com](https://render.com)
-3. Build command: `pip install -r requirements.txt`
-4. Start command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
-5. Set environment variable: `GROQ_API_KEY=your_key`
-
-### Frontend → Vercel
-
-1. Push `frontend/` to GitHub
-2. Import repo on [vercel.com](https://vercel.com)
-3. Set environment variable: `VITE_API_URL=https://your-render-service.onrender.com`
-4. Deploy
-
----
-
 ## Tradeoffs
 
 | Tradeoff | Decision |
